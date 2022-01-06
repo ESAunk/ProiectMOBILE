@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PromoBox.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Primary">#FF613F3F</Color>
+            <Color x:Key="PrimaryDark">#613F3F</Color>
+            <Color x:Key="Accent">#bc8f8f</Color>
+            <Color x:Key="LightBackgroundColor">#bc8f8f</Color>
+            <Color x:Key="DarkBackgroundColor">#bc8f8f</Color>
+            <Color x:Key="MediumGrayTextColor">#bc8f8f</Color>
+            <Color x:Key="LightTextColor">#bc8f8f</Color>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="{StaticResource Primary}" />
+                <Setter Property="BarTextColor" Value="White" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
