@@ -12,7 +12,7 @@ namespace PromoBox.Models
 
         public override string ToString()
         {
-            return this.BookName + "(" + "My Review: " + this.BookReview + " stars" + ")";
+            return this.BookName + "(" + "My Review: " + this.BookReview +  ")";
         }
     }
 }

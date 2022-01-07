@@ -43,8 +43,8 @@ namespace PromoBox.Views
             stackLayout.Children.Add(_bookEntry);
 
             _reviewEntry = new Entry();
-            _reviewEntry.Keyboard = Keyboard.Numeric;
-            _reviewEntry.Placeholder = "Book Review (1 to 5 stars)";
+            _reviewEntry.Keyboard = Keyboard.Text;
+            _reviewEntry.Placeholder = "Add a review";
             stackLayout.Children.Add(_reviewEntry);
 
             _button = new Button();

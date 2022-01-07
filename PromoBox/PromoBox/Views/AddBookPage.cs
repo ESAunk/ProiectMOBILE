@@ -27,9 +27,11 @@ namespace PromoBox.Views
             stackLayout.Children.Add(_bookEntry);
 
             _reviewEntry = new Entry();
-            _reviewEntry.Keyboard = Keyboard.Numeric;
-            _reviewEntry.Placeholder = "Book Review (1 to 5 stars)";
+            _reviewEntry.Keyboard = Keyboard.Text;
+            _reviewEntry.SelectionLength > 0;
+            _reviewEntry.Placeholder = "Add a review";
             stackLayout.Children.Add(_reviewEntry);
+               
 
             _saveButton = new Button();
             _saveButton.Text = "Add";
@@ -57,5 +59,6 @@ namespace PromoBox.Views
             await DisplayAlert(null, book.BookName + " - Saved", "Ok");
             await Navigation.PopAsync();
         }
+
     }
 }
