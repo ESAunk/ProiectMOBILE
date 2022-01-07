@@ -28,7 +28,6 @@ namespace PromoBox.Views
 
             _reviewEntry = new Entry();
             _reviewEntry.Keyboard = Keyboard.Text;
-            _reviewEntry.SelectionLength > 0;
             _reviewEntry.Placeholder = "Add a review";
             stackLayout.Children.Add(_reviewEntry);
                
